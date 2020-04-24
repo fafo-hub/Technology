@@ -1,0 +1,152 @@
+@font-face{
+    font-family: "Poppins";
+    src: url("(https://fonts.google.com/specimen/Poppins)");
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 98%);
+    font-family: Poppins;
+}
+header {
+    text-align: center;
+    font-size: 30px;
+  }
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: -webkit-center;
+}
+.grid1 {
+    background: white;
+    width: 18em;
+    height: 12em;
+    margin: 10px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    /* border: 1px solid black; */
+    text-align: left;
+    margin: 10px;
+    border-top: 5px solid hsl(0, 78%, 62%);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.grid2 {
+    background: white;
+    width: 18em;
+    height: 12em;
+    margin: 10px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    /* border: 1px solid black; */
+    text-align: left;
+    margin: 10px;
+    border-top: 5px solid hsl(34, 97%, 64%);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.grid3 {
+    background: white;
+    width: 18em;
+    height: 12em;
+    margin: 10px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    /* border: 1px solid black; */
+    text-align: center;
+    margin: 10px;
+    border-top: 5px solid hsl(180, 62%, 55%);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-top: 0px;
+    text-align: left;
+    position: relative;
+    left: -20em;
+    top: -20em;
+}
+/* p {
+    padding-top: 0px;
+    display: ;
+} */
+.grid4 {
+    background: white;
+    width: 18em;
+    height: 12em;
+    margin: 10px;
+    /* margin-top: 2rem;
+    margin-bottom: 2rem; */
+    /* border: 1px solid black; */
+    text-align: left;
+    margin: 10px;
+    border-top: 5px solid hsl(234, 12%, 34%);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    position: relative;
+    left: 20em;
+    bottom: 532px;
+}
+@media screen and (max-width: 900px) {
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .grid3 {
+        position: absolute;
+        left: 30px;
+    top: 17em;
+    }
+    .grid1 {
+        position: relative;
+        position: relative;
+        top: -213px;
+    }
+    .grid2 {
+        position: relative;
+        position: relative;
+        top: 214px;
+    }
+    .grid4 {
+        position: relative;
+        top: 40em;
+        left: 0px;
+    }
+
+}
+img {
+    width: 50px;
+    position: relative;
+    bottom: -4em;
+    right: -200px
+  }
+  .header1 {
+    font-size: 40px; 
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .header2 {
+    font-weight: 800;
+    font-size: 31px; 
+    color: rgba(0, 0, 0, 0.8)
+  }
+  .header3 {
+    font-size: 18px; 
+    color: hsl(229, 6%, 66%)
+  }
+  .main1 {
+    font-size: 23px;
+     font-weight: 400; 
+     color:rgba(0, 0, 0, 0.8); 
+    text-indent: 25px;
+  }
+  .main2 {
+    font-size: 15px; 
+    color: hsl(229, 6%, 66%); 
+    text-indent: 25px;
+  }
+  .main3 {
+    text-indent: 25px; 
+    color: hsl(229, 6%, 66%);
+  }
